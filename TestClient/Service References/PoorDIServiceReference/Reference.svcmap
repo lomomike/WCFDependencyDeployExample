@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c0a199c1-0c27-43e4-abd3-4d92efac2fec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/SamplePoorService/ReportService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ReportService.xsd" MetadataType="Schema" ID="67b2e09e-875b-4e31-9bc3-16d4123f9b1e" SourceId="1" SourceUrl="http://localhost/SamplePoorService/ReportService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ReportService1.xsd" MetadataType="Schema" ID="28665512-ebdb-4ec7-bfee-e7ba9a232a45" SourceId="1" SourceUrl="http://localhost/SamplePoorService/ReportService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ReportService.wsdl" MetadataType="Wsdl" ID="4e80142c-949f-41cf-9f94-706c327cc201" SourceId="1" SourceUrl="http://localhost/SamplePoorService/ReportService.svc?wsdl" />
+    <MetadataFile FileName="ReportService.disco" MetadataType="Disco" ID="214c53ee-ebca-4228-9a1d-5102b22a169c" SourceId="1" SourceUrl="http://localhost/SamplePoorService/ReportService.svc?disco" />
+    <MetadataFile FileName="ReportService2.xsd" MetadataType="Schema" ID="36894f26-dbfc-4f6f-86d9-29a17710c4df" SourceId="1" SourceUrl="http://localhost/SamplePoorService/ReportService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
