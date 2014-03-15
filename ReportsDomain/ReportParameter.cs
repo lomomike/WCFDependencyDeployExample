@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace SamplePoorDIService
+namespace ReportsDomain
 {
     [DataContract]
     public class ReportParameter

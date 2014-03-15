@@ -1,4 +1,6 @@
-﻿namespace SamplePoorDIService
+﻿using ReportsDomain;
+
+namespace SamplePoorDIService
 {
     public  interface IReportsServiceContainer {
         IReportService ResolveReportService();

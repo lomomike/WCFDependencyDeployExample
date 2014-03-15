@@ -1,4 +1,4 @@
-﻿namespace SamplePoorDIService
+﻿namespace ReportsDomain
 {
     public interface IReport
     {

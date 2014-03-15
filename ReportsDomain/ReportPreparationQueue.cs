@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SamplePoorDIService
+namespace ReportsDomain
 {
     public interface IReportPreparationQueue
     {
