@@ -19,6 +19,16 @@ namespace TestClient
                 Console.WriteLine("Is report ready: {0}", client.CheckReportIsReady(id));
             }
             Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine("Unity DI Service\n");
+            using (var client = new UnityDIServiceReference.ReportServiceClient())
+            {
+                Guid id = client.PostReportToQueue(1, new[] { new UnityDIServiceReference.ReportParameter() });
+                Console.WriteLine("Report id {0}", id);
+
+                Console.WriteLine("Is report ready: {0}", client.CheckReportIsReady(id));
+            }
 
             Console.ReadKey();
         }

@@ -50,6 +50,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\UnityDIServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -66,9 +71,20 @@
     <None Include="Service References\PoorDIServiceReference\ReportService2.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\UnityDIServiceReference\ReportService.wsdl" />
+    <None Include="Service References\UnityDIServiceReference\ReportService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UnityDIServiceReference\ReportService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UnityDIServiceReference\ReportService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\PoorDIServiceReference\" />
+    <WCFMetadataStorage Include="Service References\UnityDIServiceReference\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\PoorDIServiceReference\ReportService.disco" />
@@ -81,6 +97,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\PoorDIServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UnityDIServiceReference\ReportService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UnityDIServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UnityDIServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UnityDIServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
